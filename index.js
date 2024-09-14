@@ -170,7 +170,7 @@ const handleInfoCommand = async (chatId, firstName) => {
 const handleSetupCommand = async (chatId, firstName) => {
   await bot.sendMessage(
     chatId,
-    `Hurmatli ${firstName}, Bizning Admin @aquahoshinauz. Qanday savolingiz bo'lsa bemalol yozing sizga albatta javob beradi✅`
+    `Hurmatli ${firstName}, Bizning Admin @aquahoshinouz. Qanday savolingiz bo'lsa bemalol yozing sizga albatta javob beradi✅`
   );
 };
 const handleVideoCommand = async (chatId) => {
@@ -214,7 +214,7 @@ const handleExampleCommand = async (chatId, exampleName) => {
         await bot.sendPhoto(chatId, imageUrls);
       }
     } else {
-      await bot.sendMessage(chatId, "Uzur ammo bu misol botga kiritilmagan.\nSavolingiz bo'lsa @aquahoshinauz ga murojat qiling ✔");
+      await bot.sendMessage(chatId, "Uzur ammo bu misol botga kiritilmagan.\nSavolingiz bo'lsa @aquahoshinouz ga murojat qiling ✔");
     }
   } else {
     await bot.sendMessage(
